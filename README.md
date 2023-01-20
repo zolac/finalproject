@@ -1,4 +1,5 @@
 # Student Simulator
+Coding link: https://drive.google.com/file/d/1kmhMQscMOC5lFkhbrVfwrDuc9QkjJkW4/view
 ## Function
 My code is aimed to simulate (in text) the dramatized life of a student.
 The user is offered a variety of choices leading to different impacts on their health statistics, different text, or often more choices. With each choice, the user receives an upgrade in their characters statistics mentioned at the beginning. The storyline covers 4 classes (2 breaks) and ends at the end of the day (except for one option ending in kidnapping/death). At the end of the day, the system grades the characters statistics/attributes and presents the user with their character's situation, for example: if there are over 3 happiness scores, there is a print statement saying that the student (user) is happy at the end of the day. In a Choose Your Own Adventure format, it asks the user to make decisions that impact their scores of smarts, friends, overall happiness, etc. Each choice either leads to separate choices or falls into the main storyline.
