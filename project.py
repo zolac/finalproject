@@ -90,7 +90,8 @@ if __name__ == "__main__":
         print("The next question is a problem solving?! Yikes!")
         time.sleep(1)
         answer3 = input("\n- Question 3:  If the cost of a bat and a baseball combined is $1.10 and the bat costs $1.00 more than the ball, how much is the ball?\nAnswer: ")
-        if answer3 == "0.10" or "$0.10" or "0.10$" or ".10":
+        answer3possibilities = ["0.10","$0.10","0.10$",".10"]
+        if answer3 in answer3possibilities:
             print("Correct!")
             current_player.smarts += 1
         else:
