@@ -25,4 +25,5 @@ Code runs from top to bottom, so when mentioning variables within the players' c
 Selection can be found when I use IF statements in my code to allow a variety of options. These Conditional Statements fit into my code because they are only called upon when certain conditions are met - specifically when the user chooses a certain option - the code is being selected.
 #### Iteration
 My 'While' loop is an example of iteration because it will continue running the same code (the main function code) as long as the condition is met, which will always happen because the condition is simply that the code is True (always the case). The only way the code would stop iterating is if the user would chose to exit the code using sys.exit().
+
 ![Screenshot 2023-01-21 014946](https://user-images.githubusercontent.com/112853185/213819094-c1f9b0b7-0100-4426-84b9-3e5135309602.jpg)
