@@ -7,6 +7,7 @@ from time import sleep
 
 class Player:
     def __init__(self, name=None):
+        self.name = name
         self.dislike = 0
         # teacher dislike of you -> tardies, rudeness, violence
         self.friends = 0
@@ -26,7 +27,6 @@ class Player:
 if __name__ == "__main__":
     while True:
         current_player = Player()
-        current_player.print_stats()
         # print(current_player.detention)
 
         # class Me():
@@ -280,6 +280,8 @@ if __name__ == "__main__":
         else:
             pass
 
+        current_player.print_stats()
+
         if current_player.detention > 2:
             print("There are only 2 days left in the week, and you have over 2 detentions.\nYou are EXPELLED")
             backtobeginings = input("If you would like to restart the game, type Y\nAnswer: ")
@@ -288,6 +290,7 @@ if __name__ == "__main__":
                 continue
             else:
                 sys.exit
+
         else:
             if current_player.friends > 2:
                 print("Congratulations! You have over 3 friends.")
